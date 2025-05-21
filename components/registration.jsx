@@ -23,12 +23,12 @@ export function LoginForm({
           <form>
             <div className="flex flex-col gap-6">
               <div className="grid gap-3">
-                <Label htmlFor="email" className="text-bold">Email</Label>
-                <Input id="email" type="email" placeholder="user@gmail.com" required />
+                <Label htmlFor="email">Username</Label>
+                <Input id="email" type="email" placeholder="user1" required />
               </div>
               <div className="grid gap-3">
                 <div className="flex items-center">
-                  <Label htmlFor="password" className="text-bold">Password</Label>
+                  <Label htmlFor="password">Password</Label>
                   <a
                     href="#"
                     className="ml-auto inline-block text-sm underline-offset-4 hover:underline">
@@ -41,11 +41,14 @@ export function LoginForm({
                 <Button type="submit" className="w-full cursor-pointer">
                   Login
                 </Button>
+                <Button variant="outline" className="w-full cursor-pointer">
+                  Login with Google
+                </Button>
               </div>
             </div>
             <div className="mt-4 text-center text-sm">
               Don&apos;t have an account?{" "}
-              <a href="/register" className="underline underline-offset-4 cursor-pointer">
+              <a href="#" className="underline underline-offset-4 cursor-pointer">
                 Sign up
               </a>
             </div>

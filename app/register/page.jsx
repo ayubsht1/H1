@@ -1,4 +1,4 @@
-import { LoginForm } from "@/components/login-form"
+import { RegisterForm } from "@/components/register-form";
 import { IoArrowBackCircleSharp } from "react-icons/io5";
 import Link from "next/link";
 export default function Page() {
@@ -11,7 +11,7 @@ export default function Page() {
       </div>
 
       <div className="flex w-full max-w-sm flex-col gap-6">
-        <LoginForm />
+        <RegisterForm/>
       </div>
     </div>
   </>

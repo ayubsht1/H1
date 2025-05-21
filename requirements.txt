@@ -1,3 +1,5 @@
 npx create-next-app@latest
 npx shadcn@latest init
 npx shadcn@latest add login-01
+npx shadcn@latest add sidebar-16
+npm install react-icons
